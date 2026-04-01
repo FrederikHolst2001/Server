@@ -4,7 +4,7 @@ import requests
 app = Flask(__name__)
 
 # DIN VPS URL
-VPS_URL = "http://YOUR_VPS_IP:5000/webhook"
+VPS_URL = "http://vps3342622.trouble-free.net:5000/webhook"
 
 @app.route('/webhook', methods=['POST'])
 def webhook():
